@@ -12,7 +12,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.get("/", function (req, res) {
     res.render("homepage")
-    if (req.method === "post") { }
+    
 }
 )
 app.post("/day", function (req, res) {
